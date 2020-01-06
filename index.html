@@ -249,11 +249,11 @@
           <h1>Contact</h1>
           <h6>Let's work together</h6>
         </div>
-        <form action="POST" data-netlify="true" data-aos="fade-up" data-aos-delay="300">
+        <form name="contact" method="POST" data-netlify="true" data-aos="fade-up" data-aos-delay="300">
           <input type="text" name="name" id="name" placeholder="Name" autocomplete="off" required>
           <input type="text" name="email" id="email" placeholder="Email" required>
           <!--<input type="text" name="subject" placeholder="Subject">-->
-          <select name="skills" name="skill" id="skills">
+          <select name="skills" id="skills">
             <option value="">General</option>
             <option value="">Front End</option>
             <option value="">Back End</option>
@@ -262,7 +262,7 @@
             <option value="">AI/ML</option>
           </select>
 
-          <textarea name="message" name="message" id="message" placeholder="Message" required cols="10" rows="10"></textarea>
+          <textarea name="message" id="message" placeholder="Message" required cols="10" rows="10"></textarea>
           <!-- <button type="submit" name="submit">SEND MAIL</button> -->
 
           <div class="field">
