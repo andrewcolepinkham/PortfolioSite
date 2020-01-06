@@ -16,7 +16,6 @@ body{
   height: 100%;
   background: url("images/background2.jpeg") no-repeat center fixed;
   background-size: cover;
-  background-attachment: scroll;
 }
 
 section{
@@ -568,10 +567,6 @@ input[type="submit"]:hover{
 
 /*Start media queries*/
 @media screen and (max-width: 768px){
-  body{
-    background: url("images/background2.jpeg") no-repeat center fixed;
-    background-size: cover;
-  }
 
   .landing-text h1{
     font-size: 15rem;
@@ -633,6 +628,10 @@ input[type="submit"]:hover{
 
 @media screen and (max-width: 600px) {
 
+  body{
+    background: url("images/background2.jpeg") no-repeat top center fixed;
+    background-size: 100vmax 120vmax;
+  }
   .menu-toggler{
     top: 2rem;
     right: 2rem;
