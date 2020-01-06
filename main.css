@@ -7,14 +7,14 @@
 
 html{
   font-size: 8px;
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #eee;
 }
 
 body{
   width: 100%;
   height: 100%;
-  background: url("images/sitebg.jpg") no-repeat center fixed;
+  background: url("images/background2.jpeg") no-repeat center fixed;
   background-size: cover;
 }
 
@@ -53,7 +53,7 @@ img{
 
 .section-heading h1{
   font-size: 3.5rem;
-  color: rgba(255,255,255,.3);
+  color: rgba(255,255,255,.5);
   text-transform: uppercase;
   font-weight: 300;
   position: relative;
@@ -105,7 +105,8 @@ header{
   position: fixed;
   top: -100vh;
   z-index: 50;
-  background-color: #16162d;
+  background: url("images/background4.jpeg") no-repeat center fixed;
+  background-size: cover;
   border-bottom-right-radius: 100%;
   border-bottom-left-radius: 100%;
   transition: all 650ms cubic-bezier(1,0,0,1);
@@ -124,7 +125,7 @@ li{
 }
 
 .nav-link{
-  font-family: Blackout, sans-serif;
+  font-family: 'Blackout', sans-serif;
   font-size: 3rem;
   padding: 1rem;
 }
@@ -284,7 +285,7 @@ li{
 
 .about-heading h1{
   font-size: 10rem;
-  opacity: .3;
+  opacity: .5;
 }
 
 .about-heading h6{
@@ -398,7 +399,7 @@ li{
   font-size: 10rem;
   text-transform: uppercase;
   font-weight: 300;
-  opacity: 0.3;
+  opacity: 0.5;
 }
 
 .portfolio-description .cta{
@@ -432,7 +433,7 @@ li{
   text-transform: uppercase;
   font-weight: 300;
   margin-bottom: 1rem;
-  opacity: .3;
+  opacity: .5;
 }
 
 .timeline .date{
@@ -477,7 +478,10 @@ li{
 
 /*Start contact*/
 .contact{
-  background-color: #221e3f;
+  background: url("images/background3.jpeg") no-repeat center fixed;
+  background-size: cover;
+  padding-top: 40rem;
+  margin-top: 40rem;
 }
 
 form{
@@ -520,7 +524,7 @@ input[type="submit"]:hover{
   width: 100%;
   text-align: center;
   background-color: #16162d;
-  padding: 2rem 0;
+  padding: 3rem 0;
   position: relative;
 }
 
@@ -562,9 +566,9 @@ input[type="submit"]:hover{
 /*End animations*/
 
 /*Start media queries*/
-@media screen and [max-width: 768px]{
+@media screen and (max-width: 768px){
   body{
-    background: url("images/sitebg.jpg") no-repeat center fixed;
+    background: url("images/background2.jpeg") no-repeat center fixed;
     background-size: cover;
   }
 
@@ -592,7 +596,7 @@ input[type="submit"]:hover{
     font-size: 8rem;
   }
 
-  .section-heading{
+  .section-heading h1{
     font-size: 3rem;
   }
 
@@ -605,7 +609,8 @@ input[type="submit"]:hover{
   }
 
   .icon-container{
-    margin: 0 2rem;
+    width: 7rem;
+    height: 7rem;
   }
 
   .icon-container i{
@@ -617,7 +622,7 @@ input[type="submit"]:hover{
   }
 
   .timeline .date::before{
-    left: -20rem;
+    left: -21rem;
   }
 
   .timeline .date::after{
@@ -625,7 +630,7 @@ input[type="submit"]:hover{
   }
 }
 
-@media screen and [max-width: 600px] {
+@media screen and (max-width: 600px) {
   .menu-toggler{
     top: 2rem;
     right: 2rem;
@@ -646,6 +651,9 @@ input[type="submit"]:hover{
   .about .container{
     flex-direction: column;
   }
+  .about-details{
+    margin-top: 10rem;
+  }
 
   .profile-img{
     margin-left: 0 0 7rem 0;
@@ -661,7 +669,7 @@ input[type="submit"]:hover{
   }
 
   .portfolio-description{
-    margin-left: 0;
+    margin: 0;
     order: 2;
   }
 
@@ -691,6 +699,7 @@ input[type="submit"]:hover{
 
 @font-face {
   font-family: Roboto;
-  src: url(fonts/Roboto-Black.ttf) format('truetype');
+  src: url(fonts/Roboto-Regular.ttf) format('truetype');
 }
+
 /*End media queries*/
