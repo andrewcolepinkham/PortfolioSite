@@ -568,6 +568,9 @@ input[type="submit"]:hover{
 /*Start media queries*/
 @media screen and (max-width: 768px){
 
+  body{
+    overflow-x: hidden
+  }
   .landing-text h1{
     font-size: 15rem;
   }
@@ -631,6 +634,7 @@ input[type="submit"]:hover{
   body{
     background: url("images/background2.jpeg") no-repeat top center fixed;
     background-size: 100vmax 120vmax;
+    overflow-x: hidden
   }
   .menu-toggler{
     top: 2rem;
