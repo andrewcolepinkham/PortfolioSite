@@ -7,7 +7,7 @@
 
 html{
   font-size: 8px;
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
   color: #eee;
 }
 
@@ -124,7 +124,7 @@ li{
 }
 
 .nav-link{
-  font-family: 'Blackout', sans-serif;
+  font-family: Blackout, sans-serif;
   font-size: 3rem;
   padding: 1rem;
 }
@@ -205,7 +205,7 @@ li{
 
 .landing-text h1{
   font-size: 15rem;
-  font-family: 'Blackout', sans-serif;
+  font-family: Blackout, sans-serif;
   background: linear-gradient(to top, #ffe838, #fd57bf);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -682,5 +682,15 @@ input[type="submit"]:hover{
   }
 
 
+}
+
+@font-face {
+  font-family: Blackout;
+  src: url(fonts/Blackout-Midnight.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(fonts/Roboto-Black.ttf) format('truetype');
 }
 /*End media queries*/
