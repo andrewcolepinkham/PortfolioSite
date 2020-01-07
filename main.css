@@ -633,7 +633,7 @@ input[type="submit"]:hover{
 
   body{
     background: url("images/background2.jpeg") no-repeat top center fixed;
-    background-size: 100vmax 120vmax;
+    background-size: cover;
     overflow-x: hidden
   }
   .menu-toggler{
