@@ -632,8 +632,8 @@ input[type="submit"]:hover{
 @media screen and (max-width: 600px) {
 
   body{
-    background: url("images/background2.jpeg") no-repeat top center fixed;
-    background-size: 50% cover;
+    background: url("images/backgroundmobile2.jpeg") no-repeat top center fixed;
+    background-size: cover;
     overflow-x: hidden
   }
   .menu-toggler{
