@@ -640,8 +640,9 @@ input[type="submit"]:hover{
     /*background: url("images/backgroundmobile2.jpeg") no-repeat top center fixed;
     background-size: 100% auto;
     */
-    background-size: 100% auto;
-  }
+    background: url("images/background2.jpeg") no-repeat center center fixed;
+    background-size: cover;
+    /*background-size: 100% auto;*/  }
   .menu-toggler{
     top: 2rem;
     right: 2rem;
