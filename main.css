@@ -9,6 +9,8 @@ html{
   font-size: 8px;
   font-family: 'Roboto', sans-serif;
   color: #eee;
+  height: 100vh; /* set viewport constraint */
+  min-height: 100%; /* enforce height */
 }
 
 body{
@@ -17,6 +19,7 @@ body{
   background: url("images/background2.jpeg") no-repeat center fixed;
   background-size: cover;
   overflow-x: hidden;
+  -webkit-background-size: cover;
 }
 
 section{
@@ -639,19 +642,21 @@ input[type="submit"]:hover{
   body{
     /*background: url("images/backgroundmobile2.jpeg") no-repeat top center fixed;
     background-size: 100% auto;
-    /*
+
     position: relative;
-    /*
+
     z-index: -1;
     top: 0;
     left: 0;
-    */
+
+
     width: 100%;
-    height: 125%; /* To compensate for mobile browser address bar space */
+    height: 125%;
     background: url("images/background2.jpeg") no-repeat fixed top center;
     background-size: cover;
     -webkit-background-size: cover;
-    /*background-size: 100% auto;*/  }
+
+    background-size: 100% auto;*/  }
   .menu-toggler{
     top: 2rem;
     right: 2rem;
