@@ -16,6 +16,7 @@ body{
   height: 100%;
   background: url("images/background2.jpeg") no-repeat center fixed;
   background-size: cover;
+  overflow-x: hidden;
 }
 
 section{
@@ -573,7 +574,7 @@ input[type="submit"]:hover{
 @media screen and (max-width: 768px){
 
   body{
-    overflow-x: hidden
+
   }
   .landing-text h1{
     font-size: 15rem;
@@ -639,7 +640,7 @@ input[type="submit"]:hover{
     /*background: url("images/backgroundmobile2.jpeg") no-repeat top center fixed;
     background-size: 100% auto;
     */
-    overflow-x: hidden
+    background-size: 100% auto;
   }
   .menu-toggler{
     top: 2rem;
