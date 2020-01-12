@@ -650,6 +650,7 @@ input[type="submit"]:hover{
     height: 125%; /* To compensate for mobile browser address bar space */
     background: url("images/background2.jpeg") no-repeat fixed top center;
     background-size: cover;
+    -webkit-background-size: cover;
     /*background-size: 100% auto;*/  }
   .menu-toggler{
     top: 2rem;
