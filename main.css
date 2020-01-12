@@ -640,7 +640,7 @@ input[type="submit"]:hover{
     /*background: url("images/backgroundmobile2.jpeg") no-repeat top center fixed;
     background-size: 100% auto;
     */
-    position: relative;
+    position: fixed;
     z-index: -1;
     top: 0;
     left: 0;
