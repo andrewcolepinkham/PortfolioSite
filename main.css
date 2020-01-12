@@ -644,8 +644,8 @@ input[type="submit"]:hover{
     z-index: -1;
     top: 0;
     left: 0;
-    width: auto;
-    height: 125%; /* To compensate for mobile browser address bar space */
+    width: 100%;
+    height: auto; /* To compensate for mobile browser address bar space */
     background: url("images/background2.jpeg") no-repeat;
     background-size: 100% 100%;
     /*background-size: 100% auto;*/  }
