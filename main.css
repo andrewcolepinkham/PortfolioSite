@@ -645,7 +645,7 @@ input[type="submit"]:hover{
     top: 0;
     left: 0;
     width: 100%;
-    height: 125%; /* To compensate for mobile browser address bar space */
+    height: 100%; /* To compensate for mobile browser address bar space */
     background: url("images/background2.jpeg") no-repeat;
     background-size: cover;
     /*background-size: 100% auto;*/  }
