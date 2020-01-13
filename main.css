@@ -663,15 +663,18 @@ input[type="submit"]:hover{
     -o-background-size: cover;
     background-size: cover;
   }
+  /*
   .top-nav{
-    /*
+
     background: url("images/background4.jpeg") center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    */
+
   }
+  */
+
   .menu-toggler{
     top: 2rem;
     right: 2rem;
