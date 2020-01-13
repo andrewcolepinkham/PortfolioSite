@@ -635,7 +635,7 @@ input[type="submit"]:hover{
 @media screen and (max-width: 600px) {
 
   body:after{
-      /*content:"";*/
+      content:"";
       position:fixed; /* stretch a fixed position to the whole screen */
       top:0;
       height:100vh; /* fix for mobile browser address bar appearing disappearing */
