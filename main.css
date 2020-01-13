@@ -657,7 +657,7 @@ input[type="submit"]:hover{
     -webkit-background-size: cover;
 
     background-size: 100% auto;*/
-    background-attachment: no-repeat center center fixed;
+    -webkit-background-attachment: no-repeat fixed top center;
     background-size:cover;
     -webkit-background-size:cover;
 
