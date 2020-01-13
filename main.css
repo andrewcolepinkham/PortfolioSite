@@ -649,9 +649,11 @@ input[type="submit"]:hover{
       background-size: cover;
     }
 
-  /*
+
   .top-nav{
 
+    content:"";
+    position:fixed;
     background: url("images/background4.jpeg") center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -659,7 +661,7 @@ input[type="submit"]:hover{
     background-size: cover;
 
   }
-  */
+  
 
   .menu-toggler{
     top: 2rem;
