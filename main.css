@@ -662,7 +662,7 @@ input[type="submit"]:hover{
 
   }
   .contact{
-    content:"";
+    
     position:fixed;
     background: url("images/background3.jpeg") center center;
     -webkit-background-size: cover;
