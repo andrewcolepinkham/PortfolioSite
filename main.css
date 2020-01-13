@@ -576,9 +576,19 @@ input[type="submit"]:hover{
 /*Start media queries*/
 @media screen and (max-width: 768px){
 
-  body{
-
-  }
+  body:after{
+    content:"";
+    position:fixed; /* stretch a fixed position to the whole screen */
+    top:0;
+    height:100vh; /* fix for mobile browser address bar appearing disappearing */
+    left:0;
+    right:0;
+    z-index:-1; /* needed to keep in the background */
+    background: url("images/backgroundmobile2.jpeg") center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   .landing-text h1{
     font-size: 15rem;
   }
@@ -652,32 +662,21 @@ input[type="submit"]:hover{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    /*background: url("images/backgroundmobile2.jpeg") no-repeat top center fixed;
-    background-size: 100% auto;
-
-    position: relative;
-
-    z-index: -1;
-    top: 0;
-    left: 0;
-
-
-    width: 100%;
-    height: 125%;
-    background: url("images/background2.jpeg") no-repeat fixed top center;
-    background-size: cover;
+  }
+  .top-nav{
+    top:0;
+    height:100vh; /* fix for mobile browser address bar appearing disappearing */
+    left:0;
+    right:0;
+    z-index:-1; /* needed to keep in the background */
+    background: url("images/background4.jpeg") center center;
     -webkit-background-size: cover;
-
-    background-size: 100% auto;
-
-
-    background-attachment: no-repeat fixed top center;
-    background-size:cover;
-    -webkit-background-size:cover;
-
-    */
-
-
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    transition: all 650ms cubic-bezier(1,0,0,1);
   }
   .menu-toggler{
     top: 2rem;
