@@ -661,7 +661,15 @@ input[type="submit"]:hover{
     background-size: cover;
 
   }
-  
+  .contact{
+    content:"";
+    position:fixed;
+    background: url("images/background3.jpeg") center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 
   .menu-toggler{
     top: 2rem;
