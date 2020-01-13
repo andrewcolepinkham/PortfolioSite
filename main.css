@@ -669,6 +669,8 @@ input[type="submit"]:hover{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    padding-top: 50rem;
+    margin-top: 50rem;
   }
 
   .menu-toggler{
