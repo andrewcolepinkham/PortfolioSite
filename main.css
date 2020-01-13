@@ -640,7 +640,7 @@ input[type="submit"]:hover{
 @media screen and (max-width: 600px) {
 
   body{
-    background: url("images/background2.jpeg");
+    background: url("images/background2.jpeg") no-repeat;
     -webkit-background-size: cover;
     position: relative;
     top: 0;
