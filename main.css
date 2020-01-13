@@ -576,22 +576,7 @@ input[type="submit"]:hover{
 /*Start media queries*/
 @media screen and (max-width: 768px){
 
-  body:after{
-    content:"";
-    position:fixed; /* stretch a fixed position to the whole screen */
-    top:0;
-    height:100vh; /* fix for mobile browser address bar appearing disappearing */
-    left:0;
-    right:0;
-    z-index:-1; /* needed to keep in the background */
-    background: url("images/backgroundmobile2.jpeg") center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  .landing-text h1{
-    font-size: 15rem;
-  }
+  
 
   .landing-text h6{
     font-size: 1.7rem;
@@ -649,7 +634,7 @@ input[type="submit"]:hover{
 
 @media screen and (max-width: 600px) {
 
-  
+
   /*
   .top-nav{
 
