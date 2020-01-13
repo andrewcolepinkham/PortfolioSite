@@ -663,14 +663,14 @@ input[type="submit"]:hover{
   }
   .contact{
 
-    
+
     background: url("images/background3.jpeg") center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding-top: 50rem;
-    margin-top: 50rem;
+    padding-top: 10rem;
+    margin-top: 10rem;
   }
 
   .menu-toggler{
