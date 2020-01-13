@@ -642,7 +642,7 @@ input[type="submit"]:hover{
   body{
     background: url("images/background2.jpeg") no-repeat;
     -webkit-background-size: cover;
-    position: relative;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
