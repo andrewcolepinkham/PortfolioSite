@@ -6,7 +6,7 @@
 }
 
 html{
-  font-size: 8px;
+  font-size: 10px;
   font-family: 'Roboto', sans-serif;
   color: #eee;
   height: 100vh; /* set viewport constraint */
@@ -225,52 +225,6 @@ li{
   transition: all 0.3s ease-out;
 }
 .landing-text h6:hover,
-.landing-text h6:focus{
-
-  -webkit-animation: random 1s infinite;
-  animation: random 1s infinite;
-
-  user-select: none;
-
-  /*background: linear-gradient(to top, randomColor, randomColor);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-
-  */
-}
-@keyframes  random {
-
-    15% {
-      background: linear-gradient(to top, #CC0000, #ff6666);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      font-size: 3.05rem;
-    }
-    30% {
-      background: linear-gradient(to top, #ffCC99, #CC6600);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      font-size: 3.1rem;
-    }
-    45% {
-      background: linear-gradient(to top, #FFFF00, #CCFF99);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      font-size: 3.15rem;
-    }
-    60% {
-      background: linear-gradient(to top, #99FF33, #006633);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      font-size: 3.2rem;
-    }
-    75% {
-      background: linear-gradient(to top, #99FFFF, #330066);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      font-size: 3.25rem;
-    }
-}
 /*End header*/
 
 /*Start about*/
@@ -351,7 +305,7 @@ li{
 
 .skills h1{
   text-transform: uppercase;
-  letter-spacing: 2px
+  letter-spacing: 2px;
   margin: 2rem -2px 2rem 0;
 }
 
@@ -400,7 +354,7 @@ li{
 }
 
 .portfolio-description h6{
-  font-size: 10rem;
+  font-size: 7rem;
   text-transform: uppercase;
   font-weight: 300;
   opacity: 0.5;
